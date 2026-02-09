@@ -10,21 +10,21 @@ A Python-based GUI application for manual sleep stage scoring and microarousal d
 
 ---
 
-## 🌟 Features
+##  Features
 
-- 🛏️ **Manual Sleep Stage Scoring** - Score Wake, NREM, and REM sleep stages
-- 🔴 **Microarousal Detection** - Label microarousals during NREM sleep
-- 📊 **Real-time Hypnogram** - Vertical column visualization with color coding
-- 📈 **Multi-Channel Display** - EEG, EMG (high-pass filtered), and PSD analysis
-- 🔧 **Fixed Scale Mode** - Consistent signal amplitude across all epochs
-- 💾 **Auto-Save** - Automatic saving every 10 epochs
-- 📁 **Organized Output** - CSV data and high-resolution hypnogram images
-- ⌨️ **Keyboard Shortcuts** - Fast, efficient scoring workflow
-- ⚙️ **Fully Configurable** - All parameters easily adjustable in config.py
+-  **Manual Sleep Stage Scoring** - Score Wake, NREM, and REM sleep stages
+-  **Microarousal Detection** - Label microarousals during NREM sleep
+-  **Real-time Hypnogram** - Vertical column visualization with color coding
+-  **Multi-Channel Display** - EEG, EMG (high-pass filtered), and PSD analysis
+-  **Fixed Scale Mode** - Consistent signal amplitude across all epochs
+-  **Auto-Save** - Automatic saving every 10 epochs
+-  **Organized Output** - CSV data and high-resolution hypnogram images
+-  **Keyboard Shortcuts** - Fast, efficient scoring workflow
+-  **Fully Configurable** - All parameters easily adjustable in config.py
 
 ---
 
-## 🎨 Color Scheme
+##  Color Scheme
 
 - **Black** → Wake
 - **Blue** → NREM (Non-REM sleep)
@@ -34,7 +34,7 @@ A Python-based GUI application for manual sleep stage scoring and microarousal d
 
 ---
 
-## 📦 Installation
+##  Installation
 
 ### Prerequisites
 - Python 3.8 or higher
@@ -73,7 +73,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. Prepare Your Data
 
@@ -116,7 +116,7 @@ run_sleep_scorer.bat
 
 ---
 
-## ⌨️ Keyboard Shortcuts
+##  Keyboard Shortcuts
 
 ### Navigation
 - `←` / `→` — Previous/Next epoch
@@ -137,7 +137,7 @@ run_sleep_scorer.bat
 
 ### Utilities
 - `S` — Save all (CSV + hypnogram image)
-- Click `📊 Stats` — Show statistics
+- Click ` Stats` — Show statistics
 
 ---
 
@@ -225,7 +225,7 @@ epoch_index,state_code,state_name,label_ma
 
 ---
 
-## 🔬 Scientific Methods
+##  Scientific Methods
 
 This application uses rigorous signal processing methods:
 
@@ -239,7 +239,7 @@ This application uses rigorous signal processing methods:
 
 ---
 
-## 🧪 Testing with Sample Data
+##  Testing with Sample Data
 
 Generate test data to try the interface:
 
@@ -272,7 +272,7 @@ For detailed guides, see:
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
@@ -284,13 +284,13 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ---
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 📚 Citation
+##  Citation
 
 If you use this software in your research, please cite:
 
@@ -312,7 +312,7 @@ If you use this software in your research, please cite:
 
 ---
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - Built with Python, NumPy, Pandas, Matplotlib, and SciPy
 - Inspired by sleep research and polysomnography analysis needs
