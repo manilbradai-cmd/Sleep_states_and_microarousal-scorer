@@ -347,35 +347,9 @@ MAD = median(|x_i - median(x)|)
 
 ---
 
-## 11. References
+## 11. Validation and Best Practices
 
-### Signal Processing
-1. Welch, P. (1967). "The use of fast Fourier transform for the estimation of power spectra: A method based on time averaging over short, modified periodograms". IEEE Transactions on Audio and Electroacoustics. 15 (2): 70–73.
-
-2. Oppenheim, A.V., & Schafer, R.W. (2009). Discrete-Time Signal Processing (3rd ed.). Prentice Hall.
-
-3. Butterworth, S. (1930). "On the Theory of Filter Amplifiers". Experimental Wireless and the Wireless Engineer. 7: 536–541.
-
-### Sleep Scoring
-4. Berry, R.B., et al. (2012). The AASM Manual for the Scoring of Sleep and Associated Events: Rules, Terminology and Technical Specifications. American Academy of Sleep Medicine.
-
-5. Iber, C., et al. (2007). The AASM Manual for the Scoring of Sleep and Associated Events. American Academy of Sleep Medicine.
-
-### Microarousals
-6. ASDA (1992). "EEG arousals: scoring rules and examples". Sleep. 15(2): 173-184.
-
-7. Halász, P., et al. (2004). "The nature of arousal in sleep". Journal of Sleep Research. 13(1): 1-23.
-
-### Robust Statistics
-8. Rousseeuw, P.J., & Croux, C. (1993). "Alternatives to the Median Absolute Deviation". Journal of the American Statistical Association. 88(424): 1273-1283.
-
-9. Leys, C., et al. (2013). "Detecting outliers: Do not use standard deviation around the mean, use absolute deviation around the median". Journal of Experimental Social Psychology. 49(4): 764-766.
-
----
-
-## 12. Validation and Best Practices
-
-### 12.1 Recommended Workflow
+### 11.1 Recommended Workflow
 
 1. **Initial Setup**:
    - Verify sampling rate matches data
@@ -394,7 +368,7 @@ MAD = median(|x_i - median(x)|)
    - Verify microarousal distribution
    - Compare with automated scoring (if available)
 
-### 12.2 Inter-Rater Reliability
+### 11.2 Inter-Rater Reliability
 
 **Recommended Metrics**:
 - Cohen's Kappa for sleep stages
@@ -404,7 +378,7 @@ MAD = median(|x_i - median(x)|)
 
 ---
 
-## 13. Future Enhancements
+## 12. Future Enhancements
 
 Potential methodological additions:
 - [ ] Automated artifact rejection
