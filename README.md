@@ -203,7 +203,7 @@ epoch_index,state_code,state_name,label_ma
 
 ---
 
-## 🔬 Key Features Explained
+##  Key Features Explained
 
 ### Fixed Scale Mode
 - Calculates one global scale at startup based on all data
@@ -261,14 +261,6 @@ This creates a `sample_data` folder with synthetic sleep data. Update `config.py
 | EEG signals look flat | Press `+` key several times to zoom in |
 | "No module named 'tkinter'" | Run: `conda install -c anaconda tk` |
 
----
-
-## 📖 Documentation
-
-For detailed guides, see:
-- [Installation Guide](docs/INSTALLATION.md)
-- [User Manual](docs/USER_GUIDE.md)
-- [Configuration Options](docs/CONFIGURATION.md)
 
 ---
 
@@ -305,7 +297,7 @@ If you use this software in your research, please cite:
 
 ---
 
-## 📧 Contact
+## Contact
 
 - **Author**: Manil Bradai
 - **GitHub**: [@manilbradai-cmd](https://github.com/manilbradai-cmd)
